@@ -115,3 +115,7 @@ body {
 .btns {
     display: flex;
 }
+
+.review-card {
+    border: 1px solid lightgray !important;
+}
