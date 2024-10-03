@@ -13,7 +13,7 @@ This repository contains a simple **Airbnb clone** built using **Node.js**, **Ex
 
 - **Backend**: Node.js, Express.js
 - **Frontend**: EJS Templating, Vanilla CSS
-- **Database**: (Add database details if applicable)
+- **Database**: MongoDB
 - **Version Control**: Git & GitHub
 
 ## Getting Started
