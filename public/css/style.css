@@ -18,9 +18,19 @@ body {
 }
 
 /* navbar */
+/* Navbar styles */
 .navbar {
     height: 5rem;
     background-color: white;
+    /* Keep background white */
+    transition: background-color 0.3s;
+    /* Smooth transition */
+}
+
+/* Change background when expanded */
+.navbar-collapse {
+    background-color: white;
+    /* Ensure it stays white when expanded */
 }
 
 .fa-compass {
@@ -30,6 +40,31 @@ body {
 
 .nav-link {
     color: #222222 !important;
+}
+
+.nav-search-btn {
+    border: 1px solid red !important;
+    border-radius: 25px !important;
+    background-color: #fe422d !important;
+    color: white !important;
+    padding: 0rem 1rem !important;
+}
+
+.nav-search-btn:hover {
+    border-radius: 25px !important;
+    background-color: #fe422d !important;
+    color: white !important;
+}
+
+.nav-search-ip {
+    padding: 0.5rem 3rem !important;
+    border-radius: 25px !important;
+}
+
+/* Optional shadow for aesthetics */
+.navbar {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    /* Adds shadow to the navbar */
 }
 
 /* footer */
@@ -101,10 +136,24 @@ body {
     border: none !important;
 }
 
-/* new page */
 .edit-btn {
     background-color: #fe422d !important;
     border: none !important;
+}
+
+.listing-category {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.listing-category-partition {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.listing-category .form-check {
+    margin-left: 1rem;
 }
 
 /* show page */
@@ -116,6 +165,56 @@ body {
     display: flex;
 }
 
+.btn-spacing {
+    margin-right: 1rem;
+}
+
 .review-card {
     border: 1px solid lightgray !important;
+}
+
+#map {
+    width: 700px;
+    height: 500px;
+    border: 2px solid black;
+    /* Adjust the height as per your need */
+}
+
+/* index page */
+#filters {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.filter {
+    text-align: center;
+    margin-top: 1rem;
+    margin-right: 2rem;
+    opacity: 0.7;
+}
+
+.filter:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.tax {
+    border: 2px solid black;
+    border-radius: 1rem;
+    height: 3.5rem;
+    padding: 1rem;
+    margin-left: 6rem;
+    display: flex;
+    align-items: center;
+}
+
+.tax-info {
+    display: none;
+}
+
+.form-switch,
+.form-check-label,
+.form-check-input:hover {
+    cursor: pointer;
 }

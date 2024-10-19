@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
 const Review = require("./review.js");
-const { ref } = require("joi");
+const { number } = require("joi");
 
 const listingSchema = new Schema({
   title: {
@@ -12,6 +12,7 @@ const listingSchema = new Schema({
   image: {
     filename: {
       type: String,
+      default: "img"
     },
     url: {
       type: String,
@@ -35,6 +36,14 @@ const listingSchema = new Schema({
   price: Number,
   location: String,
   country: String,
+  speciality: {
+    type: [String],
+    enum: ["trending", "budget", "ACrooms", "city", "farms", "mountain", "beach", "pool", "igloo", "boathouse"]
+  },
+  coordinates: {
+    type: [Number],
+    require: true
+  }
 });
 
 listingSchema.post("findOneAndDelete", async (listing) => {

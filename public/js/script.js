@@ -16,3 +16,19 @@
         }, false)
     })
 })()
+
+let taxSwitch = document.getElementById("flexSwitchCheckDefault");
+if (taxSwitch != null) {
+
+    taxSwitch.addEventListener("click", () => {
+        let gst = document.getElementsByClassName("tax-info");
+        for (const info of gst) {
+            if (info.style.display != "inline") {
+                info.style.display = "inline";
+            } else {
+                info.style.display = "none";
+            }
+        }
+    });
+
+}
