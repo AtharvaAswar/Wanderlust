@@ -15,4 +15,7 @@ router.route("/login")
 
 router.get("/logout", controller.signOut);
 
+router.get("/policy", controller.policy);
+router.get("/terms", controller.terms);
+
 module.exports = router;

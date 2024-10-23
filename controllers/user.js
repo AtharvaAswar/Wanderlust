@@ -48,3 +48,11 @@ module.exports.signOut = (req, res, next) => {
         res.redirect("/login");
     });
 }
+
+module.exports.policy = (req, res, next) => {
+    res.render("policy.ejs");
+}
+
+module.exports.terms = (req, res, next) => {
+    res.render("terms.ejs");
+}
