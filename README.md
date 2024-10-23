@@ -1,6 +1,8 @@
-# Airbnb Clone
+# Wanderlust
 
-This repository contains a simple **Airbnb clone** built using **Node.js**, **Express.js**, and **EJS templating** to simulate a basic version of Airbnb's listing functionality.
+![Wanderlust](https://drive.google.com/uc?id=10kp0mUyvlTEQ6kaNHedaxqh7_vCZLuwp)
+
+This repository contains a simple **Wanderlust**, inspired by **Airbnb**, built using **Node.js**, **Express.js**, and **EJS templating** to simulate a basic version of Airbnb's listing functionality.
 
 ## Features
 
@@ -8,6 +10,7 @@ This repository contains a simple **Airbnb clone** built using **Node.js**, **Ex
 - **Dynamic Templating**: Uses EJS for rendering dynamic content based on data.
 - **Responsive Design**: Adaptable UI for different screen sizes.
 - **CRUD Operations**: Full stack implementation of CRUD functionality for managing properties.
+- **MVC Architecture**: Implements the Model-View-Controller architecture for better organization of code.
 
 ## Technologies Used
 
@@ -45,36 +48,14 @@ To run this project, you will need:
 
 1. To start the application, run the following command:
    ```bash
-   npm start
+   node app.js
    ```
 
-2. Open your browser and visit `http://localhost:3000` to access the app.
-
-### Folder Structure
-
-```
-/Airbnb
-│
-├── /models               # Contains the data models
-├── /routes               # Contains the route definitions
-├── /views                # Contains EJS templates
-├── package.json          # Project metadata and dependencies
-├── server.js             # Main entry point for the server
-└── README.md             # Project documentation
-```
+### Live Preview
+You can use the live version of the application at [Wanderlust Live Preview](https://wanderlust-l0l8.onrender.com/listings).
 
 ## Usage
 
 1. **Add New Listing**: Navigate to the add listing page and fill in the required fields.
 2. **View Listings**: Home page will display all current listings.
 3. **Edit/Delete Listings**: Options to modify or remove listings directly from the listing page.
-
-## Contributing
-
-If you want to contribute to this project:
-
-1. Fork the repository.
-2. Create a new branch for your feature (`git checkout -b feature-branch`).
-3. Commit your changes (`git commit -m "Added new feature"`).
-4. Push the branch (`git push origin feature-branch`).
-5. Open a Pull Request.
