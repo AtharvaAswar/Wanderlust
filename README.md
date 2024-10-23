@@ -19,6 +19,16 @@ This repository contains a simple **Wanderlust**, inspired by **Airbnb**, built 
 - **Database**: MongoDB
 - **Version Control**: Git & GitHub
 
+## Live Preview
+You can use the live version of the application at [Wanderlust Live Preview](https://wanderlust-l0l8.onrender.com/listings).
+
+## Usage
+
+1. **Add New Listing**: Navigate to the add listing page and fill in the required fields.
+2. **View Listings**: Home page will display all current listings.
+3. **Edit/Delete Listings**: Options to modify or remove listings directly from the listing page.
+
+
 ## Getting Started
 
 ### Prerequisites
@@ -50,12 +60,3 @@ To run this project, you will need:
    ```bash
    node app.js
    ```
-
-### Live Preview
-You can use the live version of the application at [Wanderlust Live Preview](https://wanderlust-l0l8.onrender.com/listings).
-
-## Usage
-
-1. **Add New Listing**: Navigate to the add listing page and fill in the required fields.
-2. **View Listings**: Home page will display all current listings.
-3. **Edit/Delete Listings**: Options to modify or remove listings directly from the listing page.
