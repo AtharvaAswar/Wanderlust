@@ -1,62 +1,105 @@
-# Wanderlust
+# 🌍 Wanderlust – Airbnb-Inspired Listing App
 
-![Wanderlust](https://drive.google.com/uc?id=10kp0mUyvlTEQ6kaNHedaxqh7_vCZLuwp)
+![Wanderlust Preview](https://drive.google.com/uc?id=10kp0mUyvlTEQ6kaNHedaxqh7_vCZLuwp)
 
-This repository contains a simple **Wanderlust**, inspired by **Airbnb**, built using **Node.js**, **Express.js**, and **EJS templating** to simulate a basic version of Airbnb's listing functionality.
+**Wanderlust** is a simplified clone of **Airbnb**, built using **Node.js**, **Express.js**, and **EJS templating**. It simulates core functionalities like adding, editing, viewing, and deleting property listings.
 
-## Features
+---
 
-- **Listings Management**: View, add, edit, and delete property listings.
-- **Dynamic Templating**: Uses EJS for rendering dynamic content based on data.
-- **Responsive Design**: Adaptable UI for different screen sizes.
-- **CRUD Operations**: Full stack implementation of CRUD functionality for managing properties.
-- **MVC Architecture**: Implements the Model-View-Controller architecture for better organization of code.
+## ✨ Features
 
-## Technologies Used
+- 🏘 **Listings Management** – Create, read, update, and delete property listings.
+- 🎨 **Dynamic Templating** – EJS-based UI rendering with dynamic content.
+- 📱 **Responsive Design** – Works smoothly across devices and screen sizes.
+- 🔄 **Full CRUD Operations** – Backend and frontend integration for data manipulation.
+- 🧱 **MVC Architecture** – Organized codebase following the Model-View-Controller pattern.
 
-- **Backend**: Node.js, Express.js
-- **Frontend**: EJS Templating, Vanilla CSS
-- **Database**: MongoDB
-- **Version Control**: Git & GitHub
+---
 
-## Live Preview
-You can use the live version of the application at [Wanderlust Live Preview](https://wanderlust-l0l8.onrender.com/listings).
+## 🛠 Technologies Used
 
-## Usage
+| Category       | Tools & Frameworks                         |
+|----------------|--------------------------------------------|
+| **Backend**    | Node.js, Express.js                        |
+| **Frontend**   | EJS Templating, Vanilla CSS                |
+| **Database**   | MongoDB                                    |
+| **Versioning** | Git & GitHub                               |
 
-1. **Add New Listing**: Navigate to the add listing page and fill in the required fields.
-2. **View Listings**: Home page will display all current listings.
-3. **Edit/Delete Listings**: Options to modify or remove listings directly from the listing page.
+---
 
+## 🌐 Live Preview
 
-## Getting Started
+🚀 Explore the live application here:  
+👉 [Wanderlust Live](https://wanderlust-l0l8.onrender.com/listings)
 
-### Prerequisites
-To run this project, you will need:
+---
+
+## 🧭 Usage Guide
+
+1. ➕ **Add New Listing** – Navigate to the "Add Listing" page and submit a new property.
+2. 👁️ **View Listings** – All listings are displayed on the homepage.
+3. ✏️ **Edit/Delete** – Modify or remove listings via the respective buttons.
+
+---
+
+## ⚙️ Getting Started
+
+### 🔧 Prerequisites
+
+Ensure you have the following installed:
 
 - [Node.js](https://nodejs.org/)
 - [npm](https://www.npmjs.com/)
 
-### Installation
+---
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/AtharvaAswar/Airbnb.git
-   ```
+### 📥 Installation
 
-2. Navigate to the project directory:
-   ```bash
-   cd Airbnb
-   ```
+Clone the repository:
 
-3. Install the dependencies:
-   ```bash
-   npm install
-   ```
+```bash
+git clone https://github.com/AtharvaAswar/Airbnb.git
+```
 
-### Running the Application
+Navigate to the project folder:
 
-1. To start the application, run the following command:
-   ```bash
-   node app.js
-   ```
+```bash
+cd Airbnb
+```
+
+Install all dependencies:
+
+```bash
+npm install
+```
+
+---
+
+### 🚀 Running the Application
+
+Start the app using:
+
+```bash
+node app.js
+```
+
+Then open your browser and go to:
+
+```
+http://localhost:3000
+```
+
+---
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!  
+Feel free to fork the repository and submit a pull request.
+
+---
+
+## 📄 License
+
+This project is for learning and demo purposes only.
+
+---
