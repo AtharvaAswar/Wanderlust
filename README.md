@@ -36,7 +36,7 @@
 
 ## 🧭 Usage Guide
 
-1. ➕ **Add New Listing** – Navigate to the "Add Listing" page and submit a new property.
+1. ➕ **Add New Listing** – Navigate to the "Airbnb your home" button near top-right corner and submit a new property.
 2. 👁️ **View Listings** – All listings are displayed on the homepage.
 3. ✏️ **Edit/Delete** – Modify or remove listings via the respective buttons.
 
